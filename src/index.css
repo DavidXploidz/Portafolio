@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin: 0;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+/*Utilidades*/
+.contenedor{
+  max-width: 375px;
+  margin: 0 auto;
+  width: 95%;
+}
+@media (min-width: 768px) {
+  .contenedor{
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 95%;
+  }
+}
+/*Header Component*/
+.header{
+  /*Obscurece la imagen con linear gradient*/
+  background: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)), url(./images/header.jpg) no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+@media (min-width: 768px) {
+   #menu-ham{
+      display: none;
+   }
+}
+
+
+.menu-slider{
+  position: fixed;
+  background-color: black;
+  top: 0;
+  right: -100%;
+  width: 65%;
+  height: 100%;
+  transition: all 0.25s ease-in;
+  padding: 5rem 2rem;
+  z-index: 10;
+}
+.menu-slider.activo{
+  right: 0;
+}
