@@ -39,14 +39,17 @@ const {mostrarMenu, setMostrarMenu, scrollToSection, inicio, about, proyectos, e
         </nav>
         {/**Contenido central del header */}
         <div className='contenedor text-center sticky top-1/4 md:top-2/4'>
-            <h2 className='font-semibold text-3xl'>Ing. David Adame Soto</h2>
-            <p className='text-xl my-5'>
-                Soy un apasionado desarrollador web,
-                autodidacta y en continuo aprendizaje.
-            </p>
-            <svg className="flex mx-auto mt-10 animate-bounce w-9 h-10 ">
-                <BsFillArrowDownCircleFill size={35} />
-            </svg>
+            <div>
+                <h2 className='font-semibold text-3xl'>Ing. David Adame Soto</h2>
+                <p className='text-xl my-5'>
+                    Soy un apasionado desarrollador web,
+                    autodidacta y en continuo aprendizaje.
+                </p>
+                <svg className="flex mx-auto mt-10 animate-bounce w-9 h-10 ">
+                    <BsFillArrowDownCircleFill size={35} />
+                </svg>
+            </div>
+           
             <button className='bg-blue-500 rounded-3xl py-2 px-5 cursor-pointer duration-300 my-5' onClick={()=> scrollToSection(contacto)}>Sigamos en contacto</button>
         </div>
         
