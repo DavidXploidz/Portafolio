@@ -44,11 +44,12 @@ const PROYECTOS = [
     },
     {
         id: 6,
-        titulo: 'Tip calcultator app',
-        imagen: 'https://res.cloudinary.com/dypooembo/image/upload/v1656095475/calcultator_xdge47.png',
-        enlace: 'https://davidxploidz.github.io/Tip-calculator-app/',
-        react: true,
-        tailwind: true,
+        titulo: 'Sherrys Cupcake Store',
+        imagen: 'https://res.cloudinary.com/dypooembo/image/upload/v1657301644/cupcake_fc9jki.png',
+        enlace: 'https://davidxploidz.github.io/Cupcake-Store/',
+        html: true,
+        css: true,
+        js: true
     },
     {
         id: 7,
@@ -57,8 +58,7 @@ const PROYECTOS = [
         enlace: 'https://davidxploidz.github.io/Bookmark-landing-page/',
         react: true,
         tailwind: true,
-    }
-    ,
+    },
     {
         id: 8,
         titulo: 'Todo app',
@@ -66,13 +66,20 @@ const PROYECTOS = [
         enlace: 'https://davidxploidz.github.io/Todo-app-/',
         react: true,
         tailwind: true,
-    }
-    ,
+    },
     {
         id: 9,
         titulo: 'App de Clima (API)',
         imagen: 'https://res.cloudinary.com/dypooembo/image/upload/v1657166392/app-clima_r9figy.png',
         enlace: 'https://davidxploidz.github.io/app-clima-api/',
+        react: true,
+        tailwind: true,
+    },
+    {
+        id: 10,
+        titulo: 'Tip calcultator app',
+        imagen: 'https://res.cloudinary.com/dypooembo/image/upload/v1656095475/calcultator_xdge47.png',
+        enlace: 'https://davidxploidz.github.io/Tip-calculator-app/',
         react: true,
         tailwind: true,
     }

@@ -19,16 +19,12 @@ const [mostrar2, setMostrar2] = useState(false)
 
 const cambiarContenido = (index) => {
   if(index === 0){
-    console.log('traenme los primeros 6');
     setMostrar(true)
     setMostrar2(false)
-  
     return 
   }else if(index === 1){
     setMostrar(false)
     setMostrar2(true)
-    console.log('traeme los siguientes 6');
-
     return
   }
 }
@@ -66,7 +62,7 @@ const cambiarContenido = (index) => {
       )}
       {mostrar2 && (
       <div className='grid grid-cols-1 md:grid-cols-3 md:gap-x-10 md:gap-y-5'>
-      {solo = PROYECTOS.slice(6,9).map(proyecto => {
+      {solo = PROYECTOS.slice(6,10).map(proyecto => {
           return(
             <article className='text-center shadow-lg rounded-lg mb-5 md:mb-0' key={proyecto.id}>
             <p className='text-2xl font-semibold mb-3 capitalize'>{proyecto.titulo}</p>
